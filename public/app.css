@@ -1,0 +1,67 @@
+/* Global Reset & Standards ---------------------- */
+
+html { font-size: 62.5%; }
+
+body { background: #dcdbd0; max-width: 945px; margin: 0 auto; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5em; color: #222222; position: relative; -webkit-font-smoothing: antialiased; }
+
+/* Typography ------------------ */
+
+h1 { font-size: 2.1em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+hr { border: solid #333; border-width: 1px 0 0; clear: both; margin: 22px 0 21px; height: 0; }
+
+/* Gridding ---------------------- */
+
+.full-container { padding: 1em; background: #f4f2e7; min-height: 500px;}
+.span7 {width: 60%;}
+.span3 {width: 30%;}
+.left {float: left;}
+.right {float: right;}
+
+/* Navigation ---------------------- */
+
+nav { display:block; max-width: 945px; border:1px solid #222; position:relative; background-color:#333; margin: 0 auto;}
+nav ul { padding:0; margin:0; display: inline-block; float: right; margin-right: 5px;}
+nav li { list-style-type:none; display: inline-block; padding-top: 2em;}
+nav a { display:block; margin-left:5px; color: #fff; padding: 10px 20px; text-decoration: none;}
+nav a:hover { background-color:#555; }
+nav img { padding: 5px;}
+
+/* Header ---------------------- */
+
+.intro {background: #fff; padding: 10px; text-align: center;}
+
+.intro img {text-align: center; clear: right; margin-bottom: 10px;}
+
+.button {
+	padding: 10px 20px;
+   color: #fff;
+   font-size: 18px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button.signup {   
+   background: #df5c0c;
+   }
+.button.signup:hover {
+	background: #e3710c;
+}
+.button.learn {
+   background: #8c9fab;
+   }
+.button.learn:hover {
+	background: #677F8E;
+}
+
+/* Sections ---------------------- */  
+
+.wrapper {
+	height: 200px;
+	padding: 20px 10px;
+	bac
+}
